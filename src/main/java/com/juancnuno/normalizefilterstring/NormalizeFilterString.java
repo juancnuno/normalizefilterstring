@@ -6,6 +6,6 @@ final class NormalizeFilterString {
     }
 
     public static void main(String[] args) {
-        System.out.println(args[0].toLowerCase().replaceAll("[^_0-9a-z]+", " "));
+        System.out.println(args[0].replaceAll("\\W+", " ").toLowerCase());
     }
 }
