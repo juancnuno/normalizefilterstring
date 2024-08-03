@@ -80,6 +80,7 @@
               <modulepath/>
               <argument>-m</argument>
               <argument>com.juancnuno.normalizefilterstring/com.juancnuno.normalizefilterstring.NormalizeFilterString</argument>
+              <argument>${string}</argument>
             </arguments>
           </configuration>
         </plugin>
